@@ -1,0 +1,26 @@
+#Triplication
+#The input is duplicated three times 
+#e.g. pata --> pata~pata~pata
+#alphabet type = char
+
+what type of alphabet will you use = keyboard ipa
+
+functions  = 0
+
+#states type = string
+states = ['start','output first copy','return once','output second copy','return twice', 'output third copy', 'end'] 
+initial states = [ 'start' ] 
+initial value = ''
+final states = [ 'end' ] 
+
+('start', '#') =  ('output first copy','', 1)
+('output first copy', \alphabet) =  ('output first copy', \ID, 1)
+('output first copy', '%') =  ('return once', '~', -1)
+('return once', \alphabet) = ('return once', '',-1)
+('return once', '#') =  ('output second copy', '', 1)
+('output second copy', \alphabet)  = ('output second copy', \ID, 1)
+('output second copy', '%') =  ('return twice', '~',-1)
+('return twice', \alphabet) =  ('return twice', '', -1)
+('return twice', '#') = ('output third copy', '',1)
+('output third copy', \alphabet) =  ('output third copy', \ID, 1)
+('output third copy', '%') =  ('end', '', 1)

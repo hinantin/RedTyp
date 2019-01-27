@@ -1,0 +1,3 @@
+amin	-->	amin~amin~amin
+nat	-->	nat~nat~nat
+	-->	~~
