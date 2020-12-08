@@ -1,4 +1,4 @@
-This file describes how a user can create their own 2-way FST recipe in such way that our python implementation can interpret it.
+This file describes how a user can create their own 2-way FST recipe in such a way that our python implementation can interpret it.
 
 The structure of a 2-way FST is simple. Consider the following 2-way FST recipe for Initial-C reduplication:
 
