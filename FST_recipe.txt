@@ -1,4 +1,4 @@
-#Triplication
+#Verbal reduplication 
 #The input is duplicated three times 
 #e.g. pata --> pata~pata~pata
 #alphabet type = char
