@@ -1,6 +1,6 @@
 #Verbal reduplication 
-#The input is duplicated three times 
-#e.g. pata --> pata~pata~pata
+#The input is duplicated twice 
+#e.g. koma --> koma~koma
 #alphabet type = char
 
 what type of alphabet will you use = keyboard ipa
